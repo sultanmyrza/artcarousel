@@ -23,6 +23,11 @@ class _ArtCarouselState extends State<ArtCarousel> {
   @override
   Widget build(BuildContext context) {
     // TODO: your code goes here feel free to edit everything in art_carousel.dart
+    //    return Center(
+    //        child: Text(
+    //      "Your code goes here",
+    //      style: Theme.of(context).textTheme.headline6,
+    //    ));
     return ListView(
       scrollDirection: Axis.horizontal,
       children: widget.arts.map(_generateArtCard).toList(),
